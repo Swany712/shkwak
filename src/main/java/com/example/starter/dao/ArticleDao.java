@@ -1,10 +1,10 @@
-package com.example.starter.service;
+package com.example.starter.dao;
 
 import java.util.List;
 
 import com.example.starter.dto.Article;
 
-public interface ArticleService {
+public interface ArticleDao {
 
 	List<Article> getList();
 	
